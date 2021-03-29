@@ -3,7 +3,8 @@
     width: 100% !important;
                }
   .header {
-    font-size: 15px !important;
+    font-size: 18px !important;
+    height: 65px !important;
   }  
   .main {
     font-size: 12px !important;
@@ -13,7 +14,15 @@
   }       
   .left-main {
     height: 20% !important;
+    margin-left: 22px !important;
   }       
+}
+
+@media only screen and (min-width: 1000px){
+  .main {height: 100vh}
+}
+* {
+  font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -22,7 +31,6 @@
   padding-top: 20px;
   color: white;
   font-size: 23px;
-  font-family: 'Roboto', sans-serif;
 }
 
 .nav-item a {
@@ -35,10 +43,11 @@
 }
 
 .main {
-  height: 100vh;
+  margin: 0px;
   /* background-image: url('https://i.pinimg.com/originals/53/d9/cd/53d9cd303086eae0decfed3d000fc976.jpg'); */
   background-image: url('https://i.pinimg.com/originals/f1/32/15/f13215a3276ab6f25339d39221caa4aa.jpg');
   background-size: cover;
+  padding: 10px;
 }
 
 .left-main {
@@ -53,7 +62,6 @@
   height: 600px;
   margin: 5%;
   color: rgb(237, 237, 237);
-  font-family: 'Roboto', sans-serif;
 }
 
 .photo {
@@ -65,10 +73,29 @@
   color: white;
 }
 
-/* .btn {
-  display: block;
-  margin: auto;
-  /* width: 20%; */
-  /* margin-top: 5px;
-} */ 
+/* portfolio page */
 
+.content-header {
+  margin: 50px;
+  color: rgb(237, 237, 237);
+  text-align: center;
+}
+
+h4 {
+  margin: 20px 0;
+  color: rgb(237, 237, 237);
+}
+
+/* resume page */
+
+.resume {
+  margin: 5px;
+}
+
+.resume img {
+  margin-top: 5px;
+}
+
+.resume-btn {
+  margin-left: 20px;
+}
