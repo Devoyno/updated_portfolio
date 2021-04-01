@@ -2,4 +2,4 @@
 
 ![screenshot](ss.png)
 
-Mike's Portfolio &amp; Resume Site
+View Mike's Portfolio &amp; Resume Site @ https://devoyno.github.io/updated_portfolio/
